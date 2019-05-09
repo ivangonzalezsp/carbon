@@ -156,7 +156,7 @@ exports[`Pager renders the Pager correctly with the classic theme 1`] = `
             autoComplete="off"
             className="carbon-dropdown__input common-input__input"
             data-element="input"
-            id="4dfdc578-b6e5-43b2-8f28-784ae60b2f0e"
+            id="guid-12345"
             name={null}
             onBlur={[Function]}
             onChange={[Function]}
@@ -166,7 +166,7 @@ exports[`Pager renders the Pager correctly with the classic theme 1`] = `
             value={10}
           />
           <label
-            htmlFor="4dfdc578-b6e5-43b2-8f28-784ae60b2f0e"
+            htmlFor="guid-12345"
           >
             <span
               className="carbon-icon carbon-input-icon icon-dropdown"
@@ -219,7 +219,7 @@ exports[`Pager renders the Pager correctly with the classic theme 1`] = `
           autoComplete="off"
           className="carbon-number__input common-input__input"
           data-element="input"
-          id="b2f79812-e55c-b782-df34-56ff4a9d69ae"
+          id="guid-12345"
           onBlur={[Function]}
           onChange={[Function]}
           onFocus={[Function]}
@@ -421,7 +421,7 @@ exports[`Pager renders the Pager correctly with the small theme 1`] = `
             autoComplete="off"
             className="carbon-dropdown__input common-input__input"
             data-element="input"
-            id="76b155d8-e1b2-de7b-3cbb-5d739cfbe407"
+            id="guid-12345"
             name={null}
             onBlur={[Function]}
             onChange={[Function]}
@@ -431,7 +431,7 @@ exports[`Pager renders the Pager correctly with the small theme 1`] = `
             value={10}
           />
           <label
-            htmlFor="76b155d8-e1b2-de7b-3cbb-5d739cfbe407"
+            htmlFor="guid-12345"
           >
             <span
               className="carbon-icon carbon-input-icon icon-dropdown"
@@ -488,7 +488,7 @@ exports[`Pager renders the Pager correctly with the small theme 1`] = `
             autoComplete="off"
             className="carbon-number__input common-input__input"
             data-element="input"
-            id="df8de75b-84bd-20be-646e-93caea9f07b8"
+            id="guid-12345"
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}

@@ -4,11 +4,15 @@ import Immutable from 'immutable';
 import 'jest-styled-components';
 import { ThemeProvider } from 'styled-components';
 import TestRenderer from 'react-test-renderer';
+import guid from '../../utils/helpers/guid';
 import { assertStyleMatch } from '../../__spec_helper__/test-utils';
 import classicTheme from '../../style/themes/classic';
 import smallTheme from '../../style/themes/small';
 import Pager from './pager.component';
 import Dropdown from '../dropdown';
+
+jest.mock('../../utils/helpers/guid');
+guid.mockImplementation(() => 'guid-12345');
 
 const pageSizeSelectionOptions = Immutable.fromJS([
   { id: '10', name: 10 },
