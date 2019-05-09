@@ -35,11 +35,17 @@ describe('Pager', () => {
   };
 
   it('renders the Pager correctly with the classic theme', () => {
-    const wrapper = render({ ...props, onPagination: () => true, theme: classicTheme });
+    const wrapper = render(
+      { ...props, onPagination: () => true, theme: classicTheme },
+      TestRenderer.create
+    );
     expect(wrapper).toMatchSnapshot();
   });
   it('renders the Pager correctly with the small theme', () => {
-    const wrapper = render({ ...props, onPagination: () => true, theme: smallTheme });
+    const wrapper = render(
+      { ...props, onPagination: () => true, theme: smallTheme },
+      TestRenderer.create
+    );
     expect(wrapper).toMatchSnapshot();
   });
 
